@@ -1,0 +1,279 @@
+/* CSS Styles */
+
+body {
+  color: white;
+}
+
+ p {
+   font-weight: 300;
+   font-size: 2rem;
+ }
+
+/* Title */
+
+.container-fluid {
+  padding: 1% 10%;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.title_container {
+  padding: 3% 20% 10%;
+}
+
+.title_intro {
+  font-family: "Audiowide";
+  color: #b175ff;
+  font-weight: 900;
+  font-size: 5.5rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.title-img {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.contact-btn {
+  margin: 5% 3% 5% 0;
+  background-color: #b175ff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Raleway";
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* Intro */
+#intro {
+  background-color: #b175ff;
+  font-family: "Raleway";
+}
+
+.intro_container {
+  padding: 100px 10%;
+}
+
+/* .circle {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  left: 19%;
+  border-radius: 100%;
+  background-color: #2d1674;
+  opacity: 0.3;
+  margin-top: 50px;
+} */
+
+.profile_pic {
+  width: 50%;
+  position: relative;
+  z-index: +1;
+}
+
+
+.intro_h2 {
+  color: #2d1674;
+  font-weight: 900;
+}
+
+.intro_h3 {
+  padding-top: 3%;
+}
+
+.intro_h4 {
+  color: #2d1674;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding-top: 3%;
+}
+
+.intro_p {
+  color: #2d1674;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.intro_text {
+  text-align: left;
+  border-left: 3px #fff solid;
+  padding-left: 40px;
+}
+
+.wave_icon:hover {
+  color: #2d1674;
+}
+
+
+/* Features */
+.features_img {
+  position: absolute;
+  z-index: -1;
+  height: 160%;
+}
+
+
+.feature-title {
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+.feature_p {
+  color: #DCD6F7;
+}
+
+.features-row {
+  padding: 70px 10% 70px 10%;
+}
+
+.feature-col {
+  padding: 50px 1%;
+}
+
+.col_two {
+  border-right: 3px #fff solid;
+  border-left: 3px #fff solid;
+}
+
+.feature-img {
+  margin: 0 auto 40px auto;
+  color: #b175ff;
+}
+
+.feature-img:hover {
+  color: #fff;
+}
+
+
+/* Skills */
+#skills {
+  background-color: #b175ff;
+  font-family: "Raleway";
+}
+
+.skills_container {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.skill_col {
+  padding: 3% 3%;
+}
+
+.skills_h2 {
+  color: #2d1674;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.row {
+  padding: 4% 10%;
+}
+
+.card {
+  background-color: #b175ff;
+  border: 2px #fff solid;
+  margin: 3% 5%;
+}
+
+.card-title {
+  font-family: "Audiowide";
+  font-size: 2.5rem;
+}
+
+.card-text {
+  color: #2d1674;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card_link {
+  color: #2d1674;
+  text-decoration: none;
+}
+.card_link:hover {
+  color: #fff;
+}
+
+/* Call to Action */
+.cta_container {
+  padding: 10% 23% 10%;
+}
+
+.cta_img {
+  height: 70%;
+  width: 100%;
+}
+
+ .cta-h3 {
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 4.5rem;
+   color: white;
+
+ }
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 4% 5% 3%;
+  background-color: #b175ff;
+  margin-bottom: 0;
+}
+
+.footer_text {
+  font-size: 1rem;
+}
+
+/* Media Q */
+
+@media  (max-width:900px) {
+  .title-img {
+    height: 150%;
+  }
+
+  .features_img {
+    height: 200%;
+  }
+
+  .cta_img {
+    height: 60%;
+    width: 100%;
+  }
+
+  .profile_pic {
+    padding-bottom: 20%;
+    width: 60%;
+  }
+
+  .col_two {
+    border-top: 3px #fff solid;
+    border-bottom: 3px #fff solid;
+    border-left: none;
+    border-right: none;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    line-height: 2;
+  }
+}
